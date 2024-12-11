@@ -11,21 +11,18 @@
 - 데이터사이언스학과 2022111744 안교영
 
 ## 프로젝트 구조
-- **`src/`**: 분석 과정에 필요한 Python 코드
-  - `data_collection.py`: 특허 데이터 수집 코드
-  - `data_preprocessing.py`: 데이터 전처리 및 텍스트 처리 코드
-  - `lda_modeling.py`: LDA 토픽 모델링 코드
-  - `clustering_analysis.py`: 클러스터링 및 네트워크 분석 코드
-  - `main.py`: 전체 파이프라인 실행 코드
-- **`notebooks/`**: 분석 전 과정을 기록한 Jupyter Notebook
+- **`notebooks/`**: 분석 과정을 단계별로 기록한 Jupyter Notebook
+  - `1_api_data_collection.ipynb`: 특허 데이터를 API를 통해 수집
+  - `2_eda.ipynb`: 결측치 및 데이터 탐색 진행
+  - `3_preprocessing_modeling.ipynb`: 텍스트 전처리, 토픽 모델링, 시각화를 수행
 - **`data/`**:
-  - `raw/`: 원본 데이터 파일 저장
-  - `processed/`: 전처리된 데이터 파일 저장
+  - `raw/`: 수집된 원본 데이터 저장
+  - `processed/`: 전처리된 데이터 저장
 - **`results/`**:
-  - `visualizations/`: 분석 결과 시각화 자료
-  - `reports/`: 최종 분석 보고서
-- **`README.md`**: 프로젝트 설명 파일
-
+  - `visualizations/`: 분석 결과의 시각화 자료
+  - `reports/`: 최종 보고서
+- **`README.md`**: 프로젝트 설명
+- **`requirements.txt`**: 프로젝트 실행에 필요한 라이브러리
 ## 목표
 1. 특허 데이터를 활용해 디지털 데이터 처리 기술의 주요 토픽과 트렌드를 분석함
 2. 도출된 결과를 통해 기술 간 연관성과 변화 추세를 시각화함
