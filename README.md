@@ -29,6 +29,8 @@
 3. 클러스터링 및 네트워크 분석으로 유사 기술 그룹을 도출함
 
 ## 분석 파이프라인
+![image](https://github.com/user-attachments/assets/9c0c8672-763b-4f3f-955c-ebdd3f9c2635)
+
 1. **데이터 수집**:
    - KIPRIS Plus API를 활용해 특허 데이터를 수집함
    - 수집 데이터: 출원일, 초록, 발명의 명칭, IPC 번호 등
